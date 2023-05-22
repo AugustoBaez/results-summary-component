@@ -1,10 +1,35 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 
 .container {
-    background-color: red;
-    width: 100%;
+    width: 70%;
     height: 100%;
+    display: flex;
+    justify-items: center;
+}
+.circle {
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+    background-color: red;
+    border-radius: 50%;
+}
+.left {
+    background-color: hsl(241, 81%, 54%);
+    width: 50%;
+}
+
+.right {
+    background-color: white;
+    width: 50%;
+}
+
+section {
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    height: 250px;
+    text-align: center;
 }
