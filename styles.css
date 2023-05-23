@@ -32,22 +32,25 @@
   padding: 30px;
   background-color: #2e2be9;
   background-image: linear-gradient(0deg, #2e2be9 0%, #7857ff 100%);
-  border-radius: 15px;
   text-align: center;
   color: white;
+}
+.left,
+.right,
+.shadow {
+  border-radius: 15px;
 }
 
 .right {
   padding: 30px;
   color: hsl(224, 30%, 27%);
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-/*   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+  /*   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  /*   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
 }
 
-.right,
-.left {
-  width: 15%;
-  height: 40%;
+.shadow {
+  display: flex;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .reaction,
