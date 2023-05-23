@@ -3,33 +3,59 @@
     margin: 0;
     font-family: 'Hanken Grotesk', sans-serif;
 }
+body {
+    background-color: black;
+}
 
 .container {
+    background-color: white;
     width: 70%;
     height: 100%;
     display: flex;
     justify-items: center;
+    border-radius: 15px;
 }
 .circle {
-    justify-content: center;
-    width: 50%;
+    width: 70%;
     height: 50%;
     background-color: red;
     border-radius: 50%;
 }
 .left {
+    padding: 10px;
     background-color: hsl(241, 81%, 54%);
-    width: 50%;
+    width: 55%;
+    border-radius: 15px;
+    text-align: center;
 }
 
 .right {
-    background-color: white;
     width: 50%;
+    padding: 10px;
 }
 
 section {
-    border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     height: 250px;
+}
+
+.reaction, .memory,.verbal,.visual {
+    margin-top: 15px;
     text-align: center;
+    display: flex;
+    border-radius: 3px;
+    height: 30px;
+    justify-content: space-between;
+}
+
+.reaction {
+    background-color: hsla(0, 100%, 67%, 0.3);
+}
+.memory {
+    background-color: hsla(39, 100%, 56%, 0.3);
+}
+.verbal {
+    background-color: hsla(166, 100%, 37%, 0.3);
+}
+.visual {
+    background-color: hsla(234, 85%, 45%, 0.3);
 }
