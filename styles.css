@@ -16,10 +16,10 @@
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 .circle {
-  width: 140px;
+  height: 50%;
   padding: 10px;
   background-color: #4e21ca;
-  background-image: linear-gradient(0deg, #00308f 0%, #4e21ca 100%);
+  background-image: linear-gradient( 0deg, #00308f 0%, #4e21ca 100%);
   border-radius: 50%;
   line-height: 50px;
 }
@@ -34,14 +34,16 @@
   background-image: linear-gradient(0deg, #2e2be9 0%, #7857ff 100%);
   text-align: center;
   color: white;
+  width: 100%;
 }
 .left,
 .right,
 .shadow {
   border-radius: 15px;
 }
-
 .right {
+  height: 100%;
+  width: 100%;
   padding: 30px;
   color: hsl(224, 30%, 27%);
   /*   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
@@ -50,17 +52,19 @@
 
 .shadow {
   display: flex;
+  height: 50%;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 40%;
 }
 
 .reaction,
 .memory,
 .verbal,
 .visual {
-  margin-top: 15px;
+  margin-top: 25px;
+  height: 8%;
   text-align: center;
-  border-radius: 3px;
-  height: 30px;
+  border-radius: 4px;
   justify-content: space-between;
   padding: 5px;
 }
@@ -76,21 +80,22 @@
 }
 
 svg {
+  margin-right: 10px;
   width: 50%;
   height: 70%;
   align-items: center;
 }
 .reaction {
-  background-color: hsla(0, 100%, 67%, 0.3);
+  background-color: hsla(0, 100%, 67%, 0.1);
 }
 .memory {
-  background-color: hsla(39, 100%, 56%, 0.3);
+  background-color: hsla(39, 100%, 56%, 0.1);
 }
 .verbal {
-  background-color: hsla(166, 100%, 37%, 0.3);
+  background-color: hsla(166, 100%, 37%, 0.1);
 }
 .visual {
-  background-color: hsla(234, 85%, 45%, 0.3);
+  background-color: hsla(234, 85%, 45%, 0.1);
 }
 
 .reaction p {
@@ -114,4 +119,13 @@ button {
   border-style: none;
   height: 10%;
   margin-top: 10%;
+}
+
+#numbers {
+  color: grey;
+  margin-right: 10px;
+}
+
+#numbers b{
+  color: black;
 }
